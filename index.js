@@ -3,11 +3,10 @@ const app = express ()
 const puerto = 8080
 
 app.use((req, res, next) => {
-    visitas++
 })
 
 app.get('/', (req, res) => {
-    
+    res.send("hola")
 })
 
 app.get('/productos', (req, res) => {
