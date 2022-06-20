@@ -13,4 +13,6 @@ app.get('/User', (req, res) => {
 app.listen(puerto, () => {
     console.log(`el servidor esta escuchando el puerto: ${puerto}`)
     console.log(`el servidor esta escuchando el puerto: ${puerto}`)
+    console.log(`el servidor esta escuchando el puerto: ${puerto}`)
+    
 })
